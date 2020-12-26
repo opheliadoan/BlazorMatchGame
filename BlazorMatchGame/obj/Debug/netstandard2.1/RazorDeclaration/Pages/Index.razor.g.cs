@@ -84,7 +84,7 @@ using BlazorMatchGame.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/Pages/Index.razor"
+#line 30 "/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/Pages/Index.razor"
        
     List<string> animalEmoji = new List<string>()
 {
@@ -114,14 +114,16 @@ using BlazorMatchGame.Shared;
     }
 
     string lastAnimalFound = string.Empty;
+    string lastDescription = string.Empty;
 
-    private void ButtonClick(string animal)
+    private void ButtonClick(string animal, string animalDescription)
     {
         if (lastAnimalFound == string.Empty)
         {
             // Remember first selection of the pair
             lastAnimalFound = animal;
-        } else if (lastAnimalFound == animal)
+            lastDescription = animalDescription;
+        } else if ((lastAnimalFound == animal) && (lastDescription != animalDescription))
         {
             // Match found. Reset for next pair
             lastAnimalFound = string.Empty;

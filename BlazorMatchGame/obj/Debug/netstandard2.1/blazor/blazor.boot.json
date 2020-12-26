@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "BlazorMatchGame.dll": "sha256-jpbio\/m4mzKcrhxf2O8aIqZjvzxcIT8foMna1VgHWFc=",
+      "BlazorMatchGame.dll": "sha256-RyfmjSdkRZxif3pB30mu6Grx+SCLZV28eH6VizPs\/Ww=",
       "System.Net.Http.Json.dll": "sha256-99dseBOagY3mzu5Y8Eqm8gRI+o8QbbCp7R2Ew9bQ+5E=",
       "System.Buffers.dll": "sha256-ZxXy75PYbzJxNfAc\/SAP1nUYm4gt1jSaOpFnBb9m85M=",
       "mscorlib.dll": "sha256-BaZPMj95+YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=",
@@ -60,7 +60,7 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-czNf3btAeBW\/vvID5LAfgcsNZ+GM3ssVuPaMflcg0rs="
     },
     "pdb": {
-      "BlazorMatchGame.pdb": "sha256-aFdBg9HyaKXi8Q\/epKalC9ho1m1lvaEhnioU3rv0TDs="
+      "BlazorMatchGame.pdb": "sha256-pmHq8l8HjEAWCAS93oAaK99SJDGK2ikhoVbKWII3RdA="
     },
     "runtime": {
       "dotnet.3.2.0.js": "sha256-mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=",
