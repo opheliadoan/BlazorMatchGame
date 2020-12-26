@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/D4TQh2ha2mml8EzSoFK9wgAmSLKyAqMo3zR0_BjQU0Y=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/jpbio-m4mzKcrhxf2O8aIqZjvzxcIT8foMna1VgHWFc=.hash",
       "Source": "\/Users\/phuonganhdoan\/Projects\/BlazorMatchGame\/BlazorMatchGame\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/BlazorMatchGame.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/BlazorMatchGame.dll.gz"
     },
@@ -261,7 +261,7 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/0puHURnKRPWfTJ7-Vhj-rEghkZaKpAl-BXCh9HCM7K0=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/aFdBg9HyaKXi8Q-epKalC9ho1m1lvaEhnioU3rv0TDs=.hash",
       "Source": "\/Users\/phuonganhdoan\/Projects\/BlazorMatchGame\/BlazorMatchGame\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/BlazorMatchGame.pdb",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/BlazorMatchGame.pdb.gz"
     },
@@ -286,7 +286,7 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/vvxDkKona0qXInGTCw13oslV2zjawhEmZtG4kliigpg=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/NtTsr8UrUAqi4NhSEsoqgC8bhgZ6kDgdadcMqiLmhlo=.hash",
       "Source": "\/Users\/phuonganhdoan\/Projects\/BlazorMatchGame\/BlazorMatchGame\/obj\/Debug\/netstandard2.1\/blazor\/blazor.boot.json",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/blazor.boot.json.gz"
     }

@@ -113,6 +113,31 @@ using BlazorMatchGame.Shared;
             .ToList();
     }
 
+    string lastAnimalFound = string.Empty;
+
+    private void ButtonClick(string animal)
+    {
+        if (lastAnimalFound == string.Empty)
+        {
+            // Remember first selection of the pair
+            lastAnimalFound = animal;
+        } else if (lastAnimalFound == animal)
+        {
+            // Match found. Reset for next pair
+            lastAnimalFound = string.Empty;
+
+            // Replace found animals with empty string to hide them
+            shuffledAnimals = shuffledAnimals
+                .Select(a => a.Replace(animal, string.Empty))
+                .ToList();
+        } else
+        {
+            // user selected an unmatched pair
+            // reset selection
+            lastAnimalFound = string.Empty;
+        }
+    }
+
 #line default
 #line hidden
 #nullable disable

@@ -17,7 +17,7 @@
         @foreach (var animal in shuffledAnimals)
         {
             <div class="col-3">
-                <button type="button" class="btn btn-outline-dark">
+                <button @onclick="@(() => ButtonClick(animal))" type="button" class="btn btn-outline-dark">
                     <h1>@animal</h1>
                 </button>
             </div>
@@ -51,5 +51,30 @@
         shuffledAnimals = animalEmoji
             .OrderBy(item => random.Next())
             .ToList();
+    }
+
+    string lastAnimalFound = string.Empty;
+
+    private void ButtonClick(string animal)
+    {
+        if (lastAnimalFound == string.Empty)
+        {
+            // Remember first selection of the pair
+            lastAnimalFound = animal;
+        } else if (lastAnimalFound == animal)
+        {
+            // Match found. Reset for next pair
+            lastAnimalFound = string.Empty;
+
+            // Replace found animals with empty string to hide them
+            shuffledAnimals = shuffledAnimals
+                .Select(a => a.Replace(animal, string.Empty))
+                .ToList();
+        } else
+        {
+            // user selected an unmatched pair
+            // reset selection
+            lastAnimalFound = string.Empty;
+        }
     }
 }
