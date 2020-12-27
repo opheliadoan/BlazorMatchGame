@@ -91,7 +91,7 @@ using System.Timers;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 39 "/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/Pages/Index.razor"
+#line 43 "/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/Pages/Index.razor"
        
     List<string> animalEmoji = new List<string>()
 {
@@ -103,7 +103,7 @@ using System.Timers;
         "🦁",
         "🐯",
         "🐹",
-        "🐧", 
+        "🐧",
         "🐸",
         "🐤",
         "🐙",
@@ -118,6 +118,9 @@ using System.Timers;
     Timer timer;
     int tenthsOfSecondsElapsed = 0;
     string timeDisplay;
+    double currentRecord;
+    double updatedRecord;
+    string bestRecord;
 
     protected override void OnInitialized()
     {
@@ -130,15 +133,19 @@ using System.Timers;
     private void SetUpGame()
     {
         Random random = new Random();
+
         shuffledAnimals = animalEmoji
             .OrderBy(item => random.Next())
             .Take(8)
             .ToList();
+
         shuffledAnimals = shuffledAnimals
             .Concat(shuffledAnimals)
             .OrderBy(item => random.Next())
             .ToList();
+
         matchesFound = 0;
+
         tenthsOfSecondsElapsed = 0;
     }
 
@@ -165,10 +172,17 @@ using System.Timers;
 
             matchesFound++;
 
-            if(matchesFound == 8)
+            if (matchesFound == 8)
             {
                 timer.Stop();
                 timeDisplay += " - Play Again?";
+
+                currentRecord = tenthsOfSecondsElapsed;
+
+                if (updatedRecord < currentRecord) ;
+
+                updatedRecord = currentRecord;
+                bestRecord = (updatedRecord / 10F).ToString("0.0s");
 
                 SetUpGame();
             }

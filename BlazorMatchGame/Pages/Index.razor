@@ -34,6 +34,10 @@
     <div class="row">
         <h2>Time: @timeDisplay</h2>
     </div>
+
+    <div class="row">
+        <h2>Best Record: @bestRecord</h2>
+    </div>
 </div>
 
 @code {
@@ -47,7 +51,7 @@
         "🦁",
         "🐯",
         "🐹",
-        "🐧", 
+        "🐧",
         "🐸",
         "🐤",
         "🐙",
@@ -62,6 +66,9 @@
     Timer timer;
     int tenthsOfSecondsElapsed = 0;
     string timeDisplay;
+    double currentRecord;
+    double updatedRecord;
+    string bestRecord;
 
     protected override void OnInitialized()
     {
@@ -74,15 +81,19 @@
     private void SetUpGame()
     {
         Random random = new Random();
+
         shuffledAnimals = animalEmoji
             .OrderBy(item => random.Next())
             .Take(8)
             .ToList();
+
         shuffledAnimals = shuffledAnimals
             .Concat(shuffledAnimals)
             .OrderBy(item => random.Next())
             .ToList();
+
         matchesFound = 0;
+
         tenthsOfSecondsElapsed = 0;
     }
 
@@ -109,10 +120,17 @@
 
             matchesFound++;
 
-            if(matchesFound == 8)
+            if (matchesFound == 8)
             {
                 timer.Stop();
                 timeDisplay += " - Play Again?";
+
+                currentRecord = tenthsOfSecondsElapsed;
+
+                if (updatedRecord < currentRecord) ;
+
+                updatedRecord = currentRecord;
+                bestRecord = (updatedRecord / 10F).ToString("0.0s");
 
                 SetUpGame();
             }
