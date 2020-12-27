@@ -84,7 +84,7 @@ using BlazorMatchGame.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 30 "/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/Pages/Index.razor"
+#line 33 "/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/Pages/Index.razor"
        
     List<string> animalEmoji = new List<string>()
 {
@@ -99,6 +99,7 @@ using BlazorMatchGame.Shared;
     };
 
     List<string> shuffledAnimals = new List<string>();
+    int matchesFound = 0;
 
     protected override void OnInitialized()
     {
@@ -111,6 +112,7 @@ using BlazorMatchGame.Shared;
         shuffledAnimals = animalEmoji
             .OrderBy(item => random.Next())
             .ToList();
+        matchesFound = 0;
     }
 
     string lastAnimalFound = string.Empty;
@@ -132,6 +134,13 @@ using BlazorMatchGame.Shared;
             shuffledAnimals = shuffledAnimals
                 .Select(a => a.Replace(animal, string.Empty))
                 .ToList();
+
+            matchesFound++;
+
+            if(matchesFound == 8)
+            {
+                SetUpGame();
+            }
         } else
         {
             // user selected an unmatched pair

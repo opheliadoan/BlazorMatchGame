@@ -355,6 +355,6 @@
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/BlazorMatchGame.csproj.CopyComplete
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/BlazorMatchGame.dll
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/BlazorMatchGame.pdb
-/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/integrity/RyfmjSdkRZxif3pB30mu6Grx_SCLZV28eH6VizPs-Ww=.hash
-/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/integrity/pmHq8l8HjEAWCAS93oAaK99SJDGK2ikhoVbKWII3RdA=.hash
-/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/integrity/zBYjDEAODyGDOjPzTuN0v0dIc0JIaexjHK5Cq2nQ5kA=.hash
+/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/integrity/Bxmu8aoZNh5Xn2Z2WdWplzTazslI5VzTGCn5RPzusE8=.hash
+/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/integrity/ilABK78RZcdCq5W82Lxe-n-iF2SpAWxodhytBEVsnDo=.hash
+/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/integrity/09oLtU3TKmkOsxRZlosdfLn4ihKqxeJ7FaYmW3WMFeU=.hash
