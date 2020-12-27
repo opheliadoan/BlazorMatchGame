@@ -1,20 +1,18 @@
 ﻿<Properties StartupConfiguration="{7E1D19D2-D8B4-4436-A3C4-3AA556FE2112}|Default">
   <MonoDevelop.Ide.ItemProperties.BlazorMatchGame PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BlazorMatchGame/Shared/NavMenu.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BlazorMatchGame/Pages/Index.razor">
     <Files>
       <File FileName="BlazorMatchGame/Pages/Index.razor" Line="121" Column="12" />
-      <File FileName="BlazorMatchGame/wwwroot/index.html" Line="7" Column="32" />
-      <File FileName="BlazorMatchGame/Shared/NavMenu.razor" Line="2" Column="47" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BlazorMatchGame" expanded="True">
             <Node name="BlazorMatchGame" expanded="True">
-              <Node name="Pages" expanded="True" />
-              <Node name="Shared" expanded="True">
-                <Node name="NavMenu.razor" selected="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Index.razor" selected="True" />
               </Node>
+              <Node name="Shared" expanded="True" />
               <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>

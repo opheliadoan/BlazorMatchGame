@@ -95,14 +95,22 @@ using System.Timers;
        
     List<string> animalEmoji = new List<string>()
 {
-        "🐶","🐶",
-        "🐺","🐺",
-        "🐮","🐮",
-        "🦊","🦊",
-        "🐱","🐱",
-        "🦁","🦁",
-        "🐯","🐯",
-        "🐹","🐹",
+        "🐶",
+        "🐺",
+        "🐮",
+        "🦊",
+        "🐱",
+        "🦁",
+        "🐯",
+        "🐹",
+        "🐧", 
+        "🐸",
+        "🐤",
+        "🐙",
+        "🐞",
+        "🐨",
+        "🐲",
+        "🐳",
     };
 
     List<string> shuffledAnimals = new List<string>();
@@ -123,6 +131,11 @@ using System.Timers;
     {
         Random random = new Random();
         shuffledAnimals = animalEmoji
+            .OrderBy(item => random.Next())
+            .Take(8)
+            .ToList();
+        shuffledAnimals = shuffledAnimals
+            .Concat(shuffledAnimals)
             .OrderBy(item => random.Next())
             .ToList();
         matchesFound = 0;
