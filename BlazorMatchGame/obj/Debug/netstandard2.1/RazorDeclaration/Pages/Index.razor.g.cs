@@ -75,6 +75,13 @@ using BlazorMatchGame.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/Pages/Index.razor"
+using System.Timers;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -84,7 +91,7 @@ using BlazorMatchGame.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/Pages/Index.razor"
+#line 39 "/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/Pages/Index.razor"
        
     List<string> animalEmoji = new List<string>()
 {
@@ -100,9 +107,15 @@ using BlazorMatchGame.Shared;
 
     List<string> shuffledAnimals = new List<string>();
     int matchesFound = 0;
+    Timer timer;
+    int tenthsOfSecondsElapsed = 0;
+    string timeDisplay;
 
     protected override void OnInitialized()
     {
+        timer = new Timer();
+        timer.Elapsed += Timer_Tick;
+
         SetUpGame();
     }
 
@@ -113,6 +126,7 @@ using BlazorMatchGame.Shared;
             .OrderBy(item => random.Next())
             .ToList();
         matchesFound = 0;
+        tenthsOfSecondsElapsed = 0;
     }
 
     string lastAnimalFound = string.Empty;
@@ -125,6 +139,7 @@ using BlazorMatchGame.Shared;
             // Remember first selection of the pair
             lastAnimalFound = animal;
             lastDescription = animalDescription;
+            timer.Start();
         } else if ((lastAnimalFound == animal) && (lastDescription != animalDescription))
         {
             // Match found. Reset for next pair
@@ -139,6 +154,9 @@ using BlazorMatchGame.Shared;
 
             if(matchesFound == 8)
             {
+                timer.Stop();
+                timeDisplay += " - Play Again?";
+
                 SetUpGame();
             }
         } else
@@ -147,6 +165,16 @@ using BlazorMatchGame.Shared;
             // reset selection
             lastAnimalFound = string.Empty;
         }
+    }
+
+    private void Timer_Tick(Object source, ElapsedEventArgs e)
+    {
+        InvokeAsync(() =>
+        {
+            tenthsOfSecondsElapsed++;
+            timeDisplay = (tenthsOfSecondsElapsed / 10F).ToString("0.0s");
+            StateHasChanged();
+        });
     }
 
 #line default
