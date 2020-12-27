@@ -83,7 +83,7 @@ using BlazorMatchGame.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/Shared/NavMenu.razor"
+#line 18 "/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/Shared/NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

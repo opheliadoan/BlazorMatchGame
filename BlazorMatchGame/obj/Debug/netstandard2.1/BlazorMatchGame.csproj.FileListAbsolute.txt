@@ -2,7 +2,6 @@
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/bin/Debug/netstandard2.1/BlazorMatchGame.dll
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/bin/Debug/netstandard2.1/BlazorMatchGame.pdb
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/bin/Debug/netstandard2.1/wwwroot/_framework/_bin/BlazorMatchGame.dll
-/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/bin/Debug/netstandard2.1/wwwroot/_framework/_bin/System.Net.Http.Json.dll
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/bin/Debug/netstandard2.1/wwwroot/_framework/_bin/System.Buffers.dll
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/bin/Debug/netstandard2.1/wwwroot/_framework/_bin/mscorlib.dll
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/bin/Debug/netstandard2.1/wwwroot/_framework/_bin/System.Threading.Tasks.Extensions.dll
@@ -60,7 +59,6 @@
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/bin/Debug/netstandard2.1/wwwroot/_framework/blazor.webassembly.js
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/bin/Debug/netstandard2.1/wwwroot/_framework/blazor.boot.json
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/bin/Debug/netstandard2.1/wwwroot/_framework/_bin/BlazorMatchGame.dll.gz
-/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/bin/Debug/netstandard2.1/wwwroot/_framework/_bin/System.Net.Http.Json.dll.gz
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/bin/Debug/netstandard2.1/wwwroot/_framework/_bin/System.Buffers.dll.gz
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/bin/Debug/netstandard2.1/wwwroot/_framework/_bin/mscorlib.dll.gz
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/bin/Debug/netstandard2.1/wwwroot/_framework/_bin/System.Threading.Tasks.Extensions.dll.gz
@@ -155,12 +153,9 @@
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/BlazorMatchGame.csproj.CoreCompileInputs.cache
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/BlazorMatchGame.RazorComponent.input.cache
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/RazorDeclaration/App.razor.g.cs
-/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/RazorDeclaration/Pages/Counter.razor.g.cs
-/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/RazorDeclaration/Pages/FetchData.razor.g.cs
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/RazorDeclaration/Pages/Index.razor.g.cs
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/RazorDeclaration/Shared/MainLayout.razor.g.cs
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/RazorDeclaration/Shared/NavMenu.razor.g.cs
-/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/RazorDeclaration/Shared/SurveyPrompt.razor.g.cs
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/RazorDeclaration/_Imports.razor.g.cs
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/BlazorMatchGame.RazorComponent.output.cache
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/RazorDeclaration/BlazorMatchGame.dll
@@ -168,15 +163,11 @@
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/BlazorMatchGame.TagHelpers.output.cache
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/BlazorMatchGame.RazorCoreGenerate.cache
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/Razor/App.razor.g.cs
-/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/Razor/Pages/Counter.razor.g.cs
-/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/Razor/Pages/FetchData.razor.g.cs
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/Razor/Pages/Index.razor.g.cs
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/Razor/Shared/MainLayout.razor.g.cs
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/Razor/Shared/NavMenu.razor.g.cs
-/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/Razor/Shared/SurveyPrompt.razor.g.cs
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/Razor/_Imports.razor.g.cs
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/blazor/unlinked.output
-/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/integrity/99dseBOagY3mzu5Y8Eqm8gRI_o8QbbCp7R2Ew9bQ_5E=.hash
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/integrity/ZxXy75PYbzJxNfAc-SAP1nUYm4gt1jSaOpFnBb9m85M=.hash
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/integrity/BaZPMj95_YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=.hash
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/integrity/TkH6yxFQlTfY8NfznePrCdYJiEVpM9Dqy4Uu4H9qk10=.hash
@@ -233,7 +224,6 @@
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/integrity/SPHS1EAPAcMFN4TEIUYl3FWtoCQTsNJch0XVGgok1eE=.hash
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/blazor/blazor.boot.json
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/compressed/_framework/_bin/BlazorMatchGame.dll.gz
-/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/compressed/_framework/_bin/System.Net.Http.Json.dll.gz
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/compressed/_framework/_bin/System.Buffers.dll.gz
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/compressed/_framework/_bin/mscorlib.dll.gz
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/compressed/_framework/_bin/System.Threading.Tasks.Extensions.dll.gz
@@ -291,7 +281,6 @@
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/compressed/_framework/blazor.webassembly.js.gz
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/compressed/_framework/blazor.boot.json.gz
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/compressed/_framework/_bin/BlazorMatchGame.dll.br
-/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/compressed/_framework/_bin/System.Net.Http.Json.dll.br
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/compressed/_framework/_bin/System.Buffers.dll.br
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/compressed/_framework/_bin/mscorlib.dll.br
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/compressed/_framework/_bin/System.Threading.Tasks.Extensions.dll.br
@@ -355,6 +344,6 @@
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/BlazorMatchGame.csproj.CopyComplete
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/BlazorMatchGame.dll
 /Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/BlazorMatchGame.pdb
-/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/integrity/ZU7HFk1pgzbk38ZTT_24grTOzemKsMzy7dYPlsPeEp4=.hash
-/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/integrity/QtS5xTaUFbgvl8reCj_UoP16n8bctKW07ODSDm8JZqY=.hash
-/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/integrity/Al1X0cISUISFR3RmoKCI6rf7TWFEUuD4qit1w9YGGvw=.hash
+/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/integrity/C19TeaZAiqYCQ5V-xsIQKJH_tcCjlwO2jOcnNof5Sn8=.hash
+/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/integrity/x0e5SmMob0_u_hSjW5-_76Jdk2pW3kK9S4KycJ3gx1g=.hash
+/Users/phuonganhdoan/Projects/BlazorMatchGame/BlazorMatchGame/obj/Debug/netstandard2.1/integrity/j7IK8zk3tVtmkzbjHhNDhLEaYMY_XYfNJIWscvwNoO0=.hash
