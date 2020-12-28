@@ -121,6 +121,7 @@ using System.Timers;
     double currentRecord;
     double updatedRecord;
     string bestRecord;
+    int countdown = 30;
 
     protected override void OnInitialized()
     {
@@ -146,7 +147,8 @@ using System.Timers;
 
         matchesFound = 0;
 
-        tenthsOfSecondsElapsed = 0;
+        // tenthsOfSecondsElapsed = 0;
+        countdown = 300;
     }
 
     string lastAnimalFound = string.Empty;
@@ -177,12 +179,13 @@ using System.Timers;
                 timer.Stop();
                 timeDisplay += " - Play Again?";
 
-                currentRecord = tenthsOfSecondsElapsed;
+                // currentRecord = tenthsOfSecondsElapsed;
+                currentRecord = countdown;
 
-                if (updatedRecord < currentRecord) ;
+                if (updatedRecord > currentRecord) ;
 
                 updatedRecord = currentRecord;
-                bestRecord = (updatedRecord / 10F).ToString("0.0s");
+                bestRecord = ((300 - updatedRecord) / 10F).ToString("0.0s");
 
                 SetUpGame();
             }
@@ -198,8 +201,14 @@ using System.Timers;
     {
         InvokeAsync(() =>
         {
-            tenthsOfSecondsElapsed++;
-            timeDisplay = (tenthsOfSecondsElapsed / 10F).ToString("0.0s");
+            // tenthsOfSecondsElapsed++;
+            // timeDisplay = (tenthsOfSecondsElapsed / 10F).ToString("0.0s");
+            countdown--;
+            if (countdown < 1)
+            {
+                timer.Stop();
+            }
+            timeDisplay = (countdown / 10F).ToString("0.0s");
             StateHasChanged();
         });
     }

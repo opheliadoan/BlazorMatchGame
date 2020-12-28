@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.ItemProperties.BlazorMatchGame PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="BlazorMatchGame/Pages/Index.razor">
     <Files>
-      <File FileName="BlazorMatchGame/Pages/Index.razor" Line="121" Column="12" />
+      <File FileName="BlazorMatchGame/Pages/Index.razor" Line="133" Column="69" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
